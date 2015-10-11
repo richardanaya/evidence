@@ -1,0 +1,30 @@
+{
+  "name": "cleanstack-es6",
+  "version": "0.0.1",
+  "description": "A minimalistic project setup",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/richardanaya/cleanstack-es6"
+  },
+  "scripts": {
+    "start": "node --harmony src/server/server.js"
+  },
+  "devDependencies": {
+    "babelify": "latest",
+    "browser-sync": "latest",
+    "browserify": "latest",
+    "gulp": "latest",
+    "gulp-nodemon": "latest",
+    "gulp-notify": "latest",
+    "gulp-util": "latest",
+    "pretty-hrtime": "latest",
+    "require-dir": "latest",
+    "underscore": "latest",
+    "vinyl-source-stream": "latest",
+    "watchify": "latest"
+  },
+  "dependencies": {
+    "koa": "latest",
+    "koa-static": "latest"
+  }
+}
